@@ -1,0 +1,13 @@
+OSI-Man, or Office of Student Involvement Manager, a basic web-based frontend to the Google Calendar Events API (more specifically, the Google Event Gadgets API).
+
+To do so, it could possibly use Google's REST API to push and change events on a calendar or perhaps a cgi script that pushes the event into an existing ical that can be ported into google calendar.
+
+Prerequisites (thus far):
+Ruby http://www.ruby-lang.org/
+Rubygems http://rubygems.org/
+Compass http://compass-style.org/
+Compass-zen-grids https://github.com/JohnAlbin/compass-zen-grids
+
+Building:
+$ cd osi-man
+$ compass compile
